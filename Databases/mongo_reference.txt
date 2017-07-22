@@ -1,3 +1,4 @@
+#The reference link is https://www.youtube.com/watch?v=pWbMrx5rVBE
 #To categorize and put the path variables
 mongod --directoryperdb --dbpath C:\mongodb\data\db --logpath C:\mongodb\log\mongo.log --logappend --resr --install
 net start MongoDB

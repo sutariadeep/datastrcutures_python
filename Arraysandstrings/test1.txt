@@ -1,0 +1,8 @@
+In my previous refreshers, which you can access from the series navigation links at the top of this article, I talked about two important Python concepts you need to grasp in order to move forward in your Python learning journey. 
+This tutorial is a continuation of the Python refresher series, and today I will be talking about Tuples. That way, you will have three important concepts in your pocket and will be ready to dig deeper in the Python language. 
+So, let's go ahead and move directly to this interesting topic of Tuples.
+What About Tuples?
+If you understood Lists, Tuples will be very simple to grasp, because they are similar to Lists except for two main differences: 
+	1.	Tuples are immutable, so once you create a Tuple, you cannot change its content or even its size, unless you make a copy of that Tuple.
+	2.	They are written in parentheses ( ) rather than in square brackets [ ]. 
+Thus, as you can guess, Tuples consist of a set of ordered objects which can be of any type (i.e. Strings, Lists, Dictionaries, Tuples, etc.), and are accessed by an index(offset), as opposed to Dictionaries where items are accessed by key. It is important to note here that Tuples store references to the objects they contain.

@@ -1,0 +1,13 @@
+import redis
+r_server = redis.Redis('localhost')
+r_server.set('name','Mahesh') ##True
+r_server.get('name')
+r_server.set('count',1)
+r_server.incr('count') >>2
+r_server.decr('count') >>1
+r_server.rpush('nums','one')
+r_server.rpush('nums','two')
+r_server.rpush('nums','three')
+r_server.rpush('nums','four')
+r_server.llen('nums') >>4
+r_server.lindex('nums',2)>> three

@@ -22,6 +22,6 @@ def isAnagram2(str1, str2):
     return True
 
 print isAnagram1('deep', 'eepd')
-print isAnagram2('deep','peed')
+print isAnagram2('deep','peed56')
 
 

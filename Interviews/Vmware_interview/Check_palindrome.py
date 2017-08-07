@@ -12,4 +12,4 @@ def isPalindrome(string):
     return odd_count in [0,1]
     
 print isPalindrome('aacc')
-print isPalindrome('ca')
+#print isPalindrome('ca')
